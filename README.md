@@ -1,7 +1,3 @@
-# logtamper
-python修改linux日志
-
-# 使用
 
 躲避管理员w查看
 
