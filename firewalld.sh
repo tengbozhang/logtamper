@@ -14,6 +14,13 @@ firewall-cmd --permanent --zone=trusted --add-source=172.64.0.0/13
 firewall-cmd --permanent --zone=trusted --add-source=131.0.72.0/22
 firewall-cmd --permanent --zone=trusted --add-source=111.187.0.0/16
 firewall-cmd --permanent --zone=trusted --add-source=180.160.0.0/16
+firewall-cmd --permanent --zone=trusted --add-source=2400:cb00::/32
+firewall-cmd --permanent --zone=trusted --add-source=2606:4700::/32
+firewall-cmd --permanent --zone=trusted --add-source=2803:f800::/32
+firewall-cmd --permanent --zone=trusted --add-source=2405:b500::/32
+firewall-cmd --permanent --zone=trusted --add-source=2405:8100::/32
+firewall-cmd --permanent --zone=trusted --add-source=2a06:98c0::/29
+firewall-cmd --permanent --zone=trusted --add-source=2c0f:f248::/32
 
 
 firewall-cmd --set-default-zone=drop
