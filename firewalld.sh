@@ -1,3 +1,29 @@
+#baidu
+firewall-cmd --permanent --zone=trusted --add-source=119.188.9.0/24
+firewall-cmd --permanent --zone=trusted --add-source=42.236.93.0/24
+firewall-cmd --permanent --zone=trusted --add-source=220.170.185.0/24
+firewall-cmd --permanent --zone=trusted --add-source=115.231.186.0/25
+firewall-cmd --permanent --zone=trusted --add-source=183.232.51.0/24
+firewall-cmd --permanent --zone=trusted --add-source=61.182.137.0/25
+firewall-cmd --permanent --zone=trusted --add-source=112.25.90.0/24
+firewall-cmd --permanent --zone=trusted --add-source=59.51.81.128-191
+firewall-cmd --permanent --zone=trusted --add-source=222.216.190.0/24
+firewall-cmd --permanent --zone=trusted --add-source=122.190.2.0/24
+firewall-cmd --permanent --zone=trusted --add-source=125.39.239.0/24
+firewall-cmd --permanent --zone=trusted --add-source=183.61.177.0/24
+firewall-cmd --permanent --zone=trusted --add-source=183.61.236.0/24
+firewall-cmd --permanent --zone=trusted --add-source=124.95.168.128-191
+firewall-cmd --permanent --zone=trusted --add-source=124.95.191.0/24
+firewall-cmd --permanent --zone=trusted --add-source=58.211.2.0/24
+firewall-cmd --permanent --zone=trusted --add-source=117.34.13.0/24
+firewall-cmd --permanent --zone=trusted --add-source=150.138.150.0/24
+firewall-cmd --permanent --zone=trusted --add-source=150.138.149.128/25
+firewall-cmd --permanent --zone=trusted --add-source=157.255.25.0/24
+firewall-cmd --permanent --zone=trusted --add-source=113.207.101.0/25
+firewall-cmd --permanent --zone=trusted --add-source=111.32.135.0/25
+
+
+#cf
 firewall-cmd --permanent --zone=trusted --add-source=173.245.48.0/20
 firewall-cmd --permanent --zone=trusted --add-source=103.21.244.0/22
 firewall-cmd --permanent --zone=trusted --add-source=103.22.200.0/22
